@@ -1,10 +1,10 @@
 # Site settings
-title: 
+title: Coding Chick
 header-img: img/home-bg.png
 email: rima.jean@gmail.com
 copyright_name: Naudria
 description: > # this means to ignore newlines until "baseurl:"
-  
+  Better late than never.
 baseurl: "" # the subpath of your site, e.g. /blog
 twitter_username: 
 github_username:  Naudria
