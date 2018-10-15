@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "My Ruby Gem CLI Portfolio Project: Daily Wines"
-date:       2018-10-15 16:54:20 +0000
+date:       2018-10-15 12:54:21 -0400
 permalink:  my_ruby_gem_cli_portfolio_project_daily_wines
 ---
 
@@ -10,7 +10,7 @@ permalink:  my_ruby_gem_cli_portfolio_project_daily_wines
 
 I didn't really understand the major concepts in Ruby until I actually sat my butt down and started working on the project. As I struggled to get my CLI to work, light bulbs went off in my head. I am finally getting this programming thing, ya'll.
 
-Basically, my CLI gem lists today's "Daily Wine Picks" from [winespectator.com]https://www.winespectator.com/dailypicks). The picks, obviously, change daily. If the user selects one of the three picks by its number, the program will provide more information on the wine, including its price, point rank, and a short (and very flowery) description of the wine. The program then prompts the user to select another daily pick or exit.  
+Basically, my CLI gem lists today's "Daily Wine Picks" from [winespectator.com](https://www.winespectator.com/dailypicks). The picks, obviously, change daily. If the user selects one of the three picks by its number, the program will provide more information on the wine, including its price, point rank, and a short (and very flowery) description of the wine. The program then prompts the user to select another daily pick or exit.  
 
 ![](https://youtu.be/93I-zaVnXTo)
 
