@@ -16,7 +16,6 @@ Basically, my CLI gem lists today's "Daily Wine Picks" from [winespectator.com](
 
 Someday I will wonder how I agonized for so long to complete this. 
 
-![](http://lh4.ggpht.com/-Y3pYIVjDwWg/TmtZvTAzuTI/AAAAAAAADyM/vcq9waa9YLw/ginger-head-desk.gif?imgmax=800)
 
 So, after going through the CLI Gem Walkthrough Video and taking care of the technical things, I figured that, since my gem was similar to Avi's, I would mimick his code as closely as possible. Of course, this was difficult because his code was so clean and I was so used to creating clunky code that I was a bit lost. I figured it out eventually.
 
