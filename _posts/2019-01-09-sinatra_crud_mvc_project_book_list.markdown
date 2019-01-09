@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "Sinatra CRUD MVC Project: Book List"
-date:       2019-01-09 17:28:12 +0000
+date:       2019-01-09 12:28:13 -0500
 permalink:  sinatra_crud_mvc_project_book_list
 ---
 
@@ -9,7 +9,7 @@ permalink:  sinatra_crud_mvc_project_book_list
 
 For my Sinatra project I decided to create Book List, a very simple app that allows a user to view and add to a master list of favorite books—including the book's title, author and genre—and share them with other users. I am constantly looking for new books to read, and to share my faves with others, so this seemed useful (albeit so basic it would need a lot more complexity to reach the usefulness of GoodReads). Still, I kept it simple in order to ensure I understood every bit of it!
 
-I started off creating the file structure with a handy little gem called [Corneal]https://thebrianemory.github.io/corneal/). It is important to structure the Models-Views-Controllers correctly, and this generator makes it easy. Then I made a checklist of things a User should be able to do:
+I started off creating the file structure with a handy little gem called [Corneal](https://thebrianemory.github.io/corneal/). It is important to structure the Models-Views-Controllers correctly, and this generator makes it easy. Then I made a checklist of things a User should be able to do:
 
 
 * Sign up for a new account
