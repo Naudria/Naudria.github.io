@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "Rendering / Redirecting in Sinatra"
-date:       2019-01-15 17:07:09 +0000
+date:       2019-01-15 12:07:09 -0500
 permalink:  rendering_redirecting_in_sinatra
 ---
 
@@ -9,7 +9,7 @@ The controller methods render and redirect both end up showing a user a differen
 
 # RENDER
 
-Rendering doesn't change the URL of the page you are visiting; rather, Sinatra automatically matches an action in the controller with an appropriately named view file. Render tells Sinatra which view or asset to show a user, without losing access to any variables defined in the controller action. Render causes a ‘server side’ redirect, and and the browser knows nothing about the change.
+Rendering doesn't change the URL of the page you are visiting; rather, Sinatra automatically matches an action in the controller with an appropriately named view file. Render tells Sinatra which view or asset to show a user, without losing access to any variables defined in the controller action. Render keeps the data from the controller so you can access it in the view page the user requested. 
 
 ```
 get '/books/:id' do
@@ -21,7 +21,7 @@ In the above route, we create an instance variable that passes to a show view vi
 
 # REDIRECT
 
-Redirect, however, tells your browser to send a request to a completely different URL, and that view to which you redirect will NOT have access to any variables defined in the controller.
+Redirect, however, tells your browser to send a request to a completely different URL, and that view to which you redirect will NOT have access to any variables defined in the controller. Redirect sends a new request to another URL without bringing the data or variables defined in the controller with it. 
 
 ```
 post '/books' do
