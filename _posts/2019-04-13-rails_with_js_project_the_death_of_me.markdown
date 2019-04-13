@@ -1,13 +1,13 @@
 ---
 layout: post
 title:      "Rails With JS Project: The Death of Me"
-date:       2019-04-13 19:21:12 +0000
+date:       2019-04-13 15:21:13 -0400
 permalink:  rails_with_js_project_the_death_of_me
 ---
 
 Wow. What a bear of a project that was.
 
-Rather than add a Javascript frontend to my Rails app from my previous project, I chose to create an entirely new doman model. This was mainly because both my Sinatra and Rails projects were based on the same domain model, so I thought it made sense to diversify my portfolio.
+Rather than add a Javascript frontend to my Rails app from my previous project, I chose to create an entirely new domain model. This was mainly because both my Sinatra and Rails projects were based on the same domain model, so I thought it made sense to diversify my portfolio.
 
 Ack.
 
