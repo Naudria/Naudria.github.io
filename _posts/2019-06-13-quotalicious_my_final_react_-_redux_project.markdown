@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "Quotalicious: My Final React - Redux Project!"
-date:       2019-06-13 15:39:25 +0000
+date:       2019-06-13 11:39:26 -0400
 permalink:  quotalicious_my_final_react_-_redux_project
 ---
 
@@ -39,4 +39,4 @@ Rather, you would do this:
 
 This is, presumably, because reducers must be "pure" -- they can only return values that use its input arguments (state, action).
 
-All in all, I was happy with the results of my project. I intend to add the ability to create lists and user authentication in the near future. See my repo at https://github.com/Naudria/Quotalicious
+All in all, I was happy with the results of my project. I intend to add the ability to create lists and user authentication in the near future. See my repo at [ https://github.com/Naudria/Quotalicious]( https://github.com/Naudria/Quotalicious)
